@@ -1,0 +1,25 @@
+name: CI Caching Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  cache-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create file to cache
+        run: echo "dummy data" > my-cache-file.txt
+
+      - name: Cache dependencies
+        id: my-cache
+        uses: actions/cache@v4
+        with:
+          path: my-cache-file.txt
+          key: cache-a9027d9
+
+      - name: prime-cache-a9027d9
+        run: echo "${{ steps.my-cache.outputs.cache-hit }}"
