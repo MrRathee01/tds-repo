@@ -6,7 +6,7 @@
 
 ## 📊 Assignment Overview
 
-- **Total Time Invested:** ~22 hours (spread across 6 days)
+- **Total Time Invested:** ~16 hours (spread across 4 days)
 - **Overall Difficulty:** 4/5 — A few questions were straightforward once I knew the right tool, but several required real trial-and-error with scripts and deployments.
 - **Primary Discovery Method:** LLM-first (Gemini Pro + Claude), falling back to docs and manual testing when outputs were wrong or incomplete.
 
