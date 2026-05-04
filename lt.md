@@ -1,4 +1,4 @@
-# TDS Learning Trace: GA4 — All 20 Questions
+# TDS Learning Trace: GA4 
 
 **Student:** Vansh Rathee | **Roll No:** 23f2004420 | **Date:** 2026-05-04
 
